@@ -103,7 +103,7 @@ runners.filter(function(runners200){
 })
 console.log(donor200); 
 
-// Problem 3 - Director decides he rather have the Last Names in caps with their IDs to print their 5K tags
+// Problem 3 - Director decides he rather have the Last Names in caps with their IDs to print their 5K tags instead.
 let capsLastID = [];
 runners.map(function(lastNameCaps){
     capsLastID.push(`${lastNameCaps.last_name.toUpperCase()} ${lastNameCaps.id}`)
